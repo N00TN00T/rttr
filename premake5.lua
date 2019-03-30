@@ -9,8 +9,9 @@ project "rttr"
 
     files
     {
-        "src/rttr/**.c",
-        "src/rttr/**.h"
+        "src/rttr/**.cpp",
+        "src/rttr/**.h",
+	"src/rttr/**.hpp"
     }
     
 	filter "system:windows"
