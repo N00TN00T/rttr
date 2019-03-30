@@ -13,6 +13,11 @@ project "rttr"
         "src/rttr/**.h",
 	"src/rttr/**.hpp"
     }
+
+    includedirs
+    {
+	"src"
+    }
     
 	filter "system:windows"
         systemversion "latest"
