@@ -11,7 +11,8 @@ project "rttr"
     {
         "src/rttr/**.cpp",
         "src/rttr/**.h",
-	"src/rttr/**.hpp"
+	"src/rttr/**.hpp",
+	"src/rttr/**.in",
     }
 
     includedirs
