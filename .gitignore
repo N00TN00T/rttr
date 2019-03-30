@@ -1,2 +1,26 @@
 .vscode
 build
+
+# Directories
+.vs/
+bin/
+bin-int/
+.vscode/
+.codelite/
+
+# Files
+*.user
+Makefile
+
+# Project files
+*.project
+*.workspace
+*.layout
+*.mk
+*.vcxproj
+*.user
+*.filters
+
+# Exceptions
+!vendor/bin/
+!vendor/bin/premake/premake5.exe
